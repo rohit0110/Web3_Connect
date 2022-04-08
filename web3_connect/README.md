@@ -11,8 +11,6 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-Connect crypto wallet to application and get back various variable necessary for interacting with smart contracts.
-
 ## Features
 
 Connect to all wallets available on WalletConnect and get back necessary variable to interact with smart contracts.
@@ -28,6 +26,10 @@ w3c.account //String containing account number with which connection was made
 w3c.credentials //WalletConnectEthereumCredentials required to interact with smart contracts
 
 ```
+
+
+
+https://user-images.githubusercontent.com/54764168/162468716-9bb27ca1-37e1-4171-ba45-0736101c245c.mp4
 
 
 
