@@ -14,6 +14,7 @@ and the Flutter guide for
 ## Features
 
 Connect to all wallets available on WalletConnect and get back necessary variable to interact with smart contracts.
+(Currently tested for Rainbow and MetaMask).
 
 ## Usage
 

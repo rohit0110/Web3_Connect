@@ -1,6 +1,6 @@
 name: web3_connect
-description: Package to connect crypto wallets to flutter applications.
-version: 0.0.2
+description: Package to connect crypto wallets to flutter applications. Works with all wallets affiliated with WalletConnect.
+version: 0.0.3
 homepage: https://github.com/rohit0110/Web3_Connect
 
 environment:
