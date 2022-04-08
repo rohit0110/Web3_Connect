@@ -11,29 +11,26 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Connect crypto wallet to application and get back various variable necessary for interacting with smart contracts.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Connect to all wallets available on WalletConnect and get back necessary variable to interact with smart contracts.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+Web3Connect w3c = Web3Connection();
+w3c.connect() //to establish connection and get a pop up to choose wallet
+w3c.disconnect() //to kill the session
+w3c.enterRpcUrl("http://localhost:7545") //to enter a rpcUrl of your choice 
+w3c.account //String containing account number with which connection was made
+w3c.credentials //WalletConnectEthereumCredentials required to interact with smart contracts
+
 ```
+
+
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Created as a starting point for a better wallet integration experience. Feel free to create issues on the repository to make the package better.

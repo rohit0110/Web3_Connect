@@ -1,7 +1,7 @@
 name: web3_connect
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/rohit0110/Web3_Connect
 
 environment:
   sdk: ">=2.16.1 <3.0.0"
